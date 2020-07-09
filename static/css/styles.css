@@ -1,0 +1,128 @@
+
+    body,html{
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(to right,#9D50BB,#6E48AA) center center fixed  !important;
+        background-size: cover;
+        font-family: 'Playfair Display', serif;
+        }
+    
+        .searchbar{
+        margin-bottom: 0;
+        margin-top: 3%;
+        height: 60px;
+        background-color: #353b48;
+        border-radius: 30px;
+        padding: 10px;
+        }
+    
+        .search_input{
+        color: white;
+        border: 0;
+        outline: 0;
+        background: none;
+        width: 0;
+        caret-color:transparent;
+        line-height: 40px;
+        width: 450px;
+        padding: 0 10px;
+        caret-color:#eab9c9;
+        /* transition: width 0.4s linear; */
+        }
+    
+        /* .searchbar:hover > .search_input{
+        padding: 0 10px;
+        width: 450px;
+        caret-color:#eab9c9;
+        transition: width 0.4s linear;
+        } */
+    
+        /* .searchbar:hover > .search_icon{
+        background: white;
+        color: #413c69;
+        } */
+    
+        .search_icon{
+        height: 40px;
+        width: 40px;
+        float: right;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        color: #eab9c9;
+        text-decoration:none;
+        }
+        .card{
+            background-color: rgb(65, 60, 105,0.7);
+            color: white;
+
+            margin-bottom: 5%;
+        }
+        .temp{
+            font-size: 70px;
+        }
+        .celsius{
+            font-size: 40px;
+        }
+        .card-title{
+            font-size: 35px;
+        }
+        .header{
+            margin-top: 2%;
+            font-size: 50px;
+            font-weight: 600;
+    
+            color: #eab9c9;
+        }
+        a{
+            text-decoration: none;
+            color:#eab9c9 ;
+        }
+        footer{
+            margin-top:2%;
+            text-decoration: none;
+            color:#eab9c9 ;
+        }
+        a:hover{
+            color:#eab9c9  ;
+        }
+        @media (max-width:425px){
+    
+           .search_input{
+                padding: 0 10px;
+                width: 300px;
+                caret-color:#eab9c9;
+                transition: width 0.4s linear;
+                }
+          
+            
+    
+        }
+    
+        @media (max-width:375px){
+    
+            .search_input{
+                padding: 0 10px;
+                width: 250px;
+                caret-color:#eab9c9;
+                transition: width 0.4s linear;
+                }
+              
+            
+    
+        }
+        @media (max-width:320px){
+    
+            .search_input{
+                padding: 0 10px;
+                width: 200px;
+                caret-color:#eab9c9;
+                transition: width 0.4s linear;
+                }
+            
+    
+        }
+    
